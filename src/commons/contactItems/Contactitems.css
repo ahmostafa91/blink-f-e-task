@@ -1,0 +1,70 @@
+.transition, .contact-item, .nav-button {
+  -webkit-transition: 0.35s all ease-in-out;
+  -moz-transition: 0.35s all ease-in-out;
+  -ms-transition: 0.35s all ease-in-out;
+  -o-transition: 0.35s all ease-in-out;
+  transition: 0.35s all ease-in-out;
+  cursor: pointer;
+}
+
+.nav-button {
+  text-align: center;
+}
+
+.nav-button:hover {
+  background-color: rgba(238, 228, 228, 0.322);
+}
+
+.contact-item {
+  display: flex;
+  border-bottom: 1px solid #546566;
+}
+
+.contact-item:hover {
+  background-color: #ecf2f2;
+}
+
+.contact-item .contact-image {
+  margin: 0 1.2em;
+  border-radius: 50%;
+  padding: 1.2em 0;
+}
+
+.contact-item .contact-image img {
+  width: 3.5em;
+}
+
+.contact-item .contact-content {
+  flex: 2 1;
+}
+
+.contact-item .contact-content .contact-info {
+  margin: 1.1em 0;
+  color: #666666;
+  font-weight: 500;
+}
+
+.contact-item .contact-content .contact-message {
+  color: #666666;
+}
+
+.contact-item .contact-date-new {
+  flex: 1 1;
+  text-align: center;
+}
+
+.contact-item .contact-date-new .date {
+  margin: 1.1em 0;
+}
+
+.contact-item .contact-date-new .new {
+  background-color: #608a8b;
+  color: #fff;
+  width: 1.8em;
+  margin: auto;
+  border-radius: 1.1em;
+}
+
+.contact-item .contact-date-new .hide {
+  display: none;
+}

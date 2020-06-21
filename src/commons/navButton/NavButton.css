@@ -1,0 +1,16 @@
+.transition, .nav-button {
+  -webkit-transition: 0.35s all ease-in-out;
+  -moz-transition: 0.35s all ease-in-out;
+  -ms-transition: 0.35s all ease-in-out;
+  -o-transition: 0.35s all ease-in-out;
+  transition: 0.35s all ease-in-out;
+  cursor: pointer;
+}
+
+.nav-button {
+  text-align: center;
+}
+
+.nav-button:hover {
+  background-color: rgba(238, 228, 228, 0.322);
+}

@@ -1,0 +1,77 @@
+@import '../../navButton/NavButton.scss';
+
+.event-card-item {
+    background-color: #ecf2f2;
+    width: 55%;
+    padding: 1.1em;
+    border-radius: 20px;
+    margin: 1.1em 3.5em 2px auto;
+    color: #546566;
+
+    .event-date {
+        
+        .date-details {
+            display: flex;
+            margin: 15px 0px;
+
+            & p + p {
+                margin: 5px 0 0 0;
+            }
+
+            .clock-icon {
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .event-note {
+        display: flex;
+
+        .calendar-icon {
+            margin-right: 15px;
+        }
+    }
+
+    .event-confirm {
+        display: flex;
+        margin: 1.3em 0 0 0;
+
+        .confirm {
+            background-color: transparent;
+            border: 1px solid #e88282;
+            color: #e88282;
+            width: 30%;
+            padding: 10px 0;
+            font-weight: 500;
+            border-radius: 10px;
+            @extend .transition;
+
+            .check {
+                margin: 0 5px 0 0;
+            }
+
+            &:hover{
+                background-color: #e88282;
+                color: #fff;
+            }
+        }
+
+        .confirm-details {
+            display: flex;
+            flex-direction: row-reverse;
+            margin: 0 0 0 auto;
+
+            img {
+                width: 15%;
+            }
+
+            .confirm-info {
+                margin-right: 1.1em;
+
+                & p + p {
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

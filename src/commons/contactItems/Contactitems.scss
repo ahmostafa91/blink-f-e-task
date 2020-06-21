@@ -1,0 +1,67 @@
+@import '../navButton/NavButton.scss';
+
+$font-color: #666666;
+
+.contact-item {
+  display: flex;
+  border-bottom: 1px solid #546566;
+  @extend .transition;
+
+  &:hover {
+    background-color: #ecf2f2;
+  }
+
+  .contact-image {
+    // flex: 1.2 1;
+    // text-align: center;
+    // padding: 0em 1em;
+    // background-color: blue;
+    // border-radius: 50%;
+    // white-space: nowrap;
+    // text-overflow: ellipsis;
+    // overflow: hidden;
+    // color: white;
+    margin: 0 1.2em;
+    border-radius: 50%;
+    padding: 1.2em 0;
+
+    img {
+        width: 3.5em;
+    }
+  }
+
+  .contact-content {
+    flex: 2 1;
+
+    .contact-info {
+      margin: 1.1em 0;
+      color: $font-color;
+      font-weight: 500;
+    }
+
+    .contact-message {
+      color: $font-color;
+    }
+  }
+
+  .contact-date-new {
+    flex: 1 1;
+    text-align: center;
+
+    .date {
+      margin: 1.1em 0;
+    }
+
+    .new {
+      background-color: #608a8b;
+      color: #fff;
+      width: 1.8em;
+      margin: auto;
+      border-radius: 1.1em;
+    }
+
+    .hide {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,148 @@
+.chatbox-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbox-container .chatbox-header {
+  background-color: #5cafb5;
+  display: flex;
+}
+
+.chatbox-container .chatbox-header h3 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: auto 1.1em;
+}
+
+.chatbox-container .chatbox-header .chatbox-option {
+  display: flex;
+  margin-left: auto;
+  margin-right: 1.2em;
+}
+
+.chatbox-container .chatbox-header .nav-button {
+  margin-left: 1.1em;
+  width: 6.2em;
+}
+
+.chatbox-container .chatbox .event-card {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.chatbox-container .chatbox .event-card .card-contact-info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.chatbox-container .chatbox .event-card .card-contact-info img {
+  width: 1.8em;
+  /* height: 15%; */
+  margin: 0 1.5em 0 5px;
+}
+
+.chatbox-container .chatbox .event-card .card-contact-info p {
+  margin: 0 5px 10px auto;
+  color: #546566;
+  font-size: 0.8rem;
+}
+
+.chatbox-container .chatbox .chat-date-info {
+  text-align: center;
+  margin: 1.1em 0;
+  color: #546566;
+  font-size: 0.8rem;
+}
+
+.chatbox-container .chatbox .chat-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatbox-container .chatbox .chat-card .chat-card-item {
+  margin: 0 0 0 2.3em;
+}
+
+.chatbox-container .chatbox .chat-card .chat-contact-info {
+  display: flex;
+  align-items: flex-end;
+  width: 75%;
+  color: #546566;
+  font-size: 0.8rem;
+}
+
+.chatbox-container .chatbox .chat-card .chat-contact-info img {
+  width: 2.1em;
+  margin: 0 1.1em 0 1.3em;
+}
+
+.chatbox-container .chatbox .chat-card .chat-contact-info p + p {
+  margin-left: auto;
+}
+
+.chatbox-container .chatbox .reply-chat-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5em;
+}
+
+.chatbox-container .chatbox .reply-chat-card .chat-card-item {
+  margin: 0 2.3em 0 auto;
+}
+
+.chatbox-container .chatbox .reply-chat-card .chat-contact-info {
+  display: flex;
+  align-items: self-end;
+  flex-direction: row-reverse;
+  width: 77%;
+  color: #546566;
+  font-size: 0.8rem;
+  margin-left: auto;
+}
+
+.chatbox-container .chatbox .reply-chat-card .chat-contact-info img {
+  width: 2.1em;
+  margin: 0 1.1em 0 1.3em;
+}
+
+.chatbox-container .chatbox .reply-chat-card .chat-contact-info p + p {
+  margin-right: auto;
+}
+
+.chatbox-container .send-input {
+  display: flex;
+  margin-top: auto;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+}
+
+.chatbox-container .send-input .add {
+  width: 5%;
+  padding: 15px 0;
+  margin: 0 10px;
+}
+
+.chatbox-container .send-input .input {
+  width: 90%;
+}
+
+.chatbox-container .send-input .input input {
+  width: 100%;
+  border-radius: 10px;
+  color: #afafb3;
+  border: none;
+  margin: 1.2em 0;
+  padding: 10px;
+  outline: none;
+}
+
+.chatbox-container .send-input .send {
+  width: 5%;
+  padding: 15px 0;
+  text-align: center;
+  color: #5cafb5;
+  margin: 0 10px;
+  cursor: pointer;
+}

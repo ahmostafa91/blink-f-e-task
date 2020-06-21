@@ -1,0 +1,30 @@
+$main-padding: 25px;
+.nav-button {
+    width: 100%;
+    color: #fff;
+    padding: $main-padding 0;
+  }
+
+.sideNav-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #4aafb7;
+  height: 100vh;
+
+  .logo {
+    text-align: center;
+    padding: $main-padding 0;
+
+    img {
+      width: 3.5em;
+    }
+  }
+
+  .nav-options {
+    @extend .nav-button
+  }
+  .log-out {
+    margin-top: auto;
+    @extend .nav-button;
+  }
+}

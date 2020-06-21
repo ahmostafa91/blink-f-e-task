@@ -1,0 +1,88 @@
+.transition, .event-card-item .event-confirm .confirm, .nav-button {
+  -webkit-transition: 0.35s all ease-in-out;
+  -moz-transition: 0.35s all ease-in-out;
+  -ms-transition: 0.35s all ease-in-out;
+  -o-transition: 0.35s all ease-in-out;
+  transition: 0.35s all ease-in-out;
+  cursor: pointer;
+}
+
+.nav-button {
+  text-align: center;
+}
+
+.nav-button:hover {
+  background-color: rgba(238, 228, 228, 0.322);
+}
+
+.event-card-item {
+  background-color: #ecf2f2;
+  width: 55%;
+  padding: 1.1em;
+  border-radius: 20px;
+  margin: 1.1em 3.5em 2px auto;
+  color: #546566;
+}
+
+.event-card-item .event-date .date-details {
+  display: flex;
+  margin: 15px 0px;
+}
+
+.event-card-item .event-date .date-details p + p {
+  margin: 5px 0 0 0;
+}
+
+.event-card-item .event-date .date-details .clock-icon {
+  margin-right: 15px;
+}
+
+.event-card-item .event-note {
+  display: flex;
+}
+
+.event-card-item .event-note .calendar-icon {
+  margin-right: 15px;
+}
+
+.event-card-item .event-confirm {
+  display: flex;
+  margin: 1.3em 0 0 0;
+}
+
+.event-card-item .event-confirm .confirm {
+  background-color: transparent;
+  border: 1px solid #e88282;
+  color: #e88282;
+  width: 30%;
+  padding: 10px 0;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.event-card-item .event-confirm .confirm .check {
+  margin: 0 5px 0 0;
+}
+
+.event-card-item .event-confirm .confirm:hover {
+  background-color: #e88282;
+  color: #fff;
+}
+
+.event-card-item .event-confirm .confirm-details {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 0 0 auto;
+}
+
+.event-card-item .event-confirm .confirm-details img {
+  width: 15%;
+}
+
+.event-card-item .event-confirm .confirm-details .confirm-info {
+  margin-right: 1.1em;
+}
+
+.event-card-item .event-confirm .confirm-details .confirm-info p + p {
+  margin-top: 5px;
+}

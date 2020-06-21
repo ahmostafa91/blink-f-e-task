@@ -1,0 +1,25 @@
+.nav-button, .sideNav-container .log-out, .sideNav-container .nav-options {
+  width: 100%;
+  color: #fff;
+  padding: 25px 0;
+}
+
+.sideNav-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #4aafb7;
+  height: 100vh;
+}
+
+.sideNav-container .logo {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.sideNav-container .logo img {
+  width: 3.5em;
+}
+
+.sideNav-container .log-out {
+  margin-top: auto;
+}
